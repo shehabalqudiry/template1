@@ -1,0 +1,70 @@
+/* Header */
+.header {
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
+	background: rgba(0, 0, 0, 0.6);
+}
+.header .logo {
+	width: 35%;
+}
+.header .logo img {
+	width: 24%;
+}
+.header .nav {
+	width: 65%;
+	list-style: none;
+	text-align: right;
+}
+.header .nav > li {
+	display: inline-block;
+	text-align: center;
+}
+.header .nav > li > a {
+	color: var(--white);
+	text-decoration: none;
+	display: block;
+    padding: 0px 10px;
+    font-size: 15px;
+    margin: 10px 0 0 0;
+}
+.header .nav > li > a.active:after,
+.header .nav > li > a:after {
+	content: "";
+	display: block;
+	height: 3px;
+	background-color: var(--maincolor);
+	transition: width .6s;
+	margin-top: 2px;
+}
+.header .nav > li > a.active:after {
+	width: 100%;
+}
+.header .nav > li > a:after {
+	width: 0;
+}
+.header .nav > li > a:hover:after {
+	width: 100%;
+}
+.dropdown {
+	position: relative;
+}
+.dropdown-menu {
+	position: absolute;
+	background-color: var(--maincolor);
+	width: 170px;
+	right: 25%;
+	top: 100%;
+	opacity: 0;
+	visibility: hidden;
+	transition: opacity 0.7s;
+}
+.dropdown-menu a{
+	color: var(--white);
+	display: block;
+	padding: 10px;
+}
+.dropdown:hover .dropdown-menu{
+	opacity: 1;
+	visibility: visible;
+}

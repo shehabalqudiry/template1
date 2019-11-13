@@ -1,0 +1,121 @@
+:root {
+	--maincolor : #6195ff;
+	--white		: #fff;
+}
+/* Main Rolez*/
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	box-sizing: border-box;
+}
+body {
+    font-family: 'Varela Round', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: montserrat,sans-serif;
+}
+button {
+	font-family: inherit;
+}
+a{
+	text-decoration: none;
+}
+
+/* classes */
+.mb-10 {
+    margin-bottom: 10px;
+}
+.mb-15 {
+	margin-bottom: 15px;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+.capitalize{
+    text-transform: capitalize;
+}
+.float-left {
+    float: left;
+}
+.container {
+	width: 80%;
+	margin: auto;
+}
+.clear {
+	clear: both;
+}
+.overlay {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.63);
+
+}
+.pd-y {
+	padding: 120px 0;
+}
+.p-90{
+	padding: 90px 0;
+}
+.mb-10 {
+	margin-bottom: 10px;
+}
+.mr-l {
+	margin: 0 5%;
+}
+.hover-opacity {
+	transition: opacity .6s;
+}
+.hover-opacity:hover {
+	opacity: 0.8;
+}
+/* .section-header */
+.section-header {
+	text-align: center;
+}
+.section-header .section-title {
+	font-size: 25px;
+	margin-bottom: 7px;
+}
+.section-header .line {
+	display: block;
+	height: 3px;
+	width:40px;
+	margin: 0 auto 70px auto;
+	background-color: var(--maincolor);
+}
+/* ./section-header */
+.ltr-effect,
+.tb-effect {
+	position: relative;
+}
+.ltr-effect:after,
+.tb-effect:after {
+	position: absolute;
+	content: "";
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background-color: rgb(58, 58, 58);
+	z-index: -2;
+}
+.ltr-effect:after{
+	width: 0;
+	transition: width .6s;
+}
+.ltr-effect:hover:after{
+	width: 100%;
+}
+.tb-effect:after{
+	height: 0;
+	transition: height .5s;
+}
+.tb-effect:hover:after{
+	height: 100%;
+}
+
+/* End  Main Roluz*/

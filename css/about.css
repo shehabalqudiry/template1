@@ -1,0 +1,23 @@
+/* About Section */
+.about-item {
+	width: 30%;
+	text-align: center;
+	border:1px solid #e8e8e8;
+	padding: 50px 20px;
+}
+.about-item:hover .about-item-title{
+	color: var(--white);
+}
+.about-item .icon {
+	color: var(--maincolor);
+}
+.about-item-title {
+	transition: color .6s;
+}
+.about-item-desc {
+	line-height: 1.5;
+	color: #999
+}
+.about-item-link {
+	color: var(--maincolor);
+}

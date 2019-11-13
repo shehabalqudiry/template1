@@ -1,0 +1,34 @@
+/* Footer */
+.footer{
+	background-color: #1c1d21;
+	text-align: center;
+	padding: 60px 0;
+}
+.footer-links li{
+	display:inline-block;
+	margin: 5px;
+}
+.footer-links li a {
+	display: block;
+	width:40px;
+	height:40px;
+	background:var(--maincolor);
+	color:var(--white);
+	border-radius:50%;
+}
+.footer-links li a i {
+	line-height:40px;
+	font-size: 25px;
+}
+.footer .copy {
+	color: #999;
+	margin: 10px 0 5px 0;
+}
+.footer .author-footer{
+	font-size:20px;
+	margin : 10px 0 0 0;
+	color: #999;	
+}
+.footer .author-footer i {
+	color: rgb(206, 63, 63);
+}

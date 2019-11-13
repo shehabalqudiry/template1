@@ -1,0 +1,54 @@
+/* Pricing Section */
+.pricing-item {
+	width: 30%;
+	padding: 50px 15px;
+	border: 1px solid #e8e8e8;
+	text-align: center;
+}
+.pricing-item-title {
+	font-size: 17px;
+	color: #999;
+    transition: color .6s;
+}
+.pricing-item-cost {
+	width: 140px;
+	height: 140px;
+	padding: 20px 0;
+	margin: 20px auto;
+	border: 2px solid var(--maincolor);
+	border-radius: 50%;
+	transition: color .6s;
+}
+.pricing-item-cost .basic-cost {
+    font-size: 50px;
+}
+.pricing-item-cost .month {
+	font-weight: bold;
+	font-size: 15px;
+}
+.pricing-list li {
+	color: #999;
+	line-height: 1.8;
+}
+.pricing-item-buy {
+    background: none;
+    background-color: rgba(0, 0, 0, 0);
+    border: 0;
+    display: block;
+    width: 140px;
+    background-color: transparent;
+    border: 1px solid var(--maincolor);
+    padding: 7px;
+    margin: 25px auto 0 auto;
+    color: var(--maincolor);
+    transition: background-color .6s;
+}
+.pricing-item:hover .pricing-item-cost {
+	color: var(--white);
+}
+.pricing-item:hover .pricing-item-buy {
+	background-color: transparent;
+}
+.pricing-item:hover .pricing-item-title {
+	color: var(--maincolor);
+}

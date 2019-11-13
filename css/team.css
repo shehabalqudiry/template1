@@ -1,0 +1,82 @@
+/* Team Section */
+.team-item{
+	width: 30%;
+	float: left;
+	background-color: #e8e8e8;
+	padding: 40px 10px;
+	text-align: center;
+}
+.team-item .team-img{
+	width: 90%;
+	margin: auto;	
+	position: relative;
+}
+.team-item .team-img img{
+	width: 100%;
+}
+.team-overlay {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background:rgba(0,0,0,0.5);
+	opacity: 0;
+	visibility: hidden;
+	transition: opacity .5s;
+}
+.team-overlay a {
+	display: block;
+	width: 30px;
+	height: 30px;
+	margin-left: auto;
+	line-height: 30px;
+	background: #7ba7ff;
+	color: var(--white);
+	opacity: 0;
+	visibility: hidden;
+	transition: opacity .7s;
+}
+.team-item .team-info-title {
+	color: #222;
+	margin: 10px 0;
+	transition: color .7s;
+}
+.team-item .team-info-text {
+	color: #999;
+	font-size: 14px; 
+	transition: color .6s;
+}
+
+.team-item:hover .team-overlay,
+.team-item:hover .team-overlay a{
+	opacity: 1;
+	visibility: visible;
+}
+.team-item.tb-effect {
+	z-index: 999;
+	transition: height .3s;
+}
+.team-item:hover .team-info-title {
+	color: var(--white);
+}
+.team-item:hover .team-info-text {
+	color: var(--maincolor);
+}
+.team-item .team-overlay a:hover {
+	background:transparent;
+}
+.team-item .team-overlay a:hover .la-facebook-f {
+	color: var(--maincolor);	
+}
+.team-item .team-overlay a:hover .la-twitter {
+	color: #44baff;	
+}
+
+.team-item .team-overlay a:hover .la-instagram {
+	color: rgba(173,140,234,0.95);
+}
+
+.team-item .team-overlay a:hover .la-github {
+	color: var(--white);	
+}

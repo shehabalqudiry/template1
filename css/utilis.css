@@ -1,0 +1,15 @@
+.mb-10 {
+    margin-bottom: 10px;
+}
+.mb-15 {
+	margin-bottom: 15px;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+.capitalize{
+    text-transform: capitalize;
+}
+.float-left {
+    float: left;
+}

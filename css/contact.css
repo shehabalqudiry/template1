@@ -1,0 +1,62 @@
+
+/* Contact Section */
+
+.contact-info .info-item {
+	width: 30%;
+	text-align: center;
+	float:left;
+}
+.contact-info .info-item i {
+	font-size: 40px;
+	color: var(--maincolor);
+}
+
+.contact-info .info-item .item-desc {
+	color: #999;
+}
+/* Form */
+.mr-2{
+	margin-right: 2%;
+}
+.contact-form{
+	width: 100%;
+	padding: 60px 120px;
+}
+.contact-form .item-inline {
+	width: 100%;
+    display: block;
+    margin: auto;
+    overflow: hidden;
+}    
+.contact-form .form-control {
+	float: left;
+	background: #f9f9f9;
+	border: 2px solid var(--white);
+	padding: 10px;
+	border-radius: 5px;
+	color: #757575;
+	transition: border .3s;
+}
+.contact-form .inline {
+	display: inline-block;
+	width: 49%;	
+}
+.contact-form .message-content,
+.contact-form .subject {
+	display: block;
+	width: 100%;
+	resize: none;	
+}
+.contact-form .form-control:focus,
+.contact-form .form-control:hover {
+	border-bottom: 1px solid var(--maincolor);
+}
+.contact-form .btn-contact {
+	font-size: 17px;
+	background: var(--maincolor);
+	border: 1px solid var(--maincolor);
+	border-radius: 5px;
+	margin: 10px 41.5% 0;
+	width: 150px;
+	height: 45px;
+}
